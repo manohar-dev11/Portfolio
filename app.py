@@ -9,7 +9,7 @@ def intro():
 
 @app.route("/portfolio")
 def portfolio():
-    return render_template("inde.html")
+    return render_template("ind.html")
 
 if __name__ == "__main__":
     app.run()
